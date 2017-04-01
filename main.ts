@@ -18,7 +18,7 @@ class MyApplication {
             minHeight: 300
         });
 
-        this.mainWindow.loadURL('file://${__dirname}/index.html')
+        this.mainWindow.loadURL(`file://${__dirname}/index.html`)
 
         this.mainWindow.on('closed', () => {
             this.mainWindow = null;
